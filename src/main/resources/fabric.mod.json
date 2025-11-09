@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "enterthewildes",
+  "version": "${version}",
+  "name": "EnterTheWildes",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/enterthewildes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "meow.enterthewildes.client.EnterthewildesDataGenerator"
+    ],
+    "client": [
+      "meow.enterthewildes.client.EnterthewildesClient"
+    ],
+    "main": [
+      "meow.enterthewildes.Enterthewildes"
+    ]
+  },
+  "mixins": [
+    "enterthewildes.mixins.json",
+    {
+      "config": "enterthewildes.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
