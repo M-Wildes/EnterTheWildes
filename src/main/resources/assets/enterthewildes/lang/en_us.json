@@ -1,3 +1,6 @@
 {
-  "item.enterthewildes.wild_gem": "Wild Gem"
+  "item.enterthewildes.wild_gem": "Wild Gem",
+  "item.enterthewildes.wild_crystal": "Wild Crystal",
+  "item.enterthewildes.ancient_shard": "Ancient Shard",
+  "itemgroup.enterthewildes.main": "Enter the Wildes"
 }

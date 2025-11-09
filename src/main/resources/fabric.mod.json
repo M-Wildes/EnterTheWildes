@@ -19,6 +19,7 @@
     "main": [
       "meow.enterthewildes.Enterthewildes"
     ]
+
   },
   "mixins": [
     "enterthewildes.mixins.json",
